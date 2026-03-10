@@ -42,8 +42,8 @@
 }
 #navbar__logo svg {
     margin-right: 0.3rem;
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .navbar__menu {
@@ -137,6 +137,7 @@
         top: 80px;
         right: 0;
         width: 100%;
+        max-width: 1500px;
         max-height: 80vh;
         overflow-y: auto;
         z-index: 900;
@@ -190,7 +191,7 @@
     margin: 0 auto;
     background: #131313;       /* match parent */
     width: 100%;
-    max-width: 1300px;
+    max-width: 1500px;
     padding: 50px;
     height: auto;              /* let content define height */
 }
@@ -299,7 +300,7 @@
 .footer__container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
     gap: 40px;
     padding: 0 20px;
@@ -1208,6 +1209,7 @@ header h1 {
     padding: 12px;
   }
 }
+
 
 
 
